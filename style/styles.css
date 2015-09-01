@@ -1,0 +1,11 @@
+@font-face { font-family: "chalkFont1"; src: url(../fnt/chalk.ttf);}
+@font-face { font-family: "chalkFont"; src: url(../fnt/chalkBold.ttf); font-weight: bold;}
+html {background: url(../img/blackboard.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+canvas { font-family: "chalkFont", position:relative; top:200; width: 1500; height: 800;}
+p { left:0; right:0; text-align:center; font-size:100%; font-family:"chalkFont"; color:#fff; }
+div {font-family:"chalkFont"; color:#fff;}
+img {cursor:pointer}
+#head { top:0; font-size:300%; font-weight: bold; }
+
+#item { position : relative; bottom : 50; height : 40px; margin-top : 40px;}
+#foot { position : absolute; bottom : 0; height : 40px; margin-top : 40px;}
